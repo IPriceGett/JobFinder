@@ -1,0 +1,116 @@
+body{
+    width: 100%;
+    font-family: Montserrat;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .brand{
+    display: flex;
+}
+
+header .brand .logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-buttons .register-button{
+    background-color: #3280F6;
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-family: montserrat;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+}
+
+.text-section{
+    background-color: #d9d9d9;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.register{
+    background-color: #9B9B9B;
+    width: 180px;
+    height: 60px;
+    border: none;
+    font-family: montserrat;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.data-section{
+    background-color: #fff;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    border-radius: 10px;
+    height: 850px;
+    background-color: #d9d9d9;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-white{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+input{
+    border-radius: 10px;
+    height: 55px;
+    border: none;
+    width: 400px;
+}
+
+::placeholder{
+    text-align: center;
+    color: #808080;
+}
+
+select{
+    border: none;
+    width:400px ;
+    border-radius: 10px;
+    height: 55px;
+}
+
+option{
+    text-align: center;
+    color: #808080;
+}
