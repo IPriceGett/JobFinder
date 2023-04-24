@@ -42,6 +42,10 @@ $(document).ready(function(){
             window.location.href = "register.html"
 
         })
+        $("#home").click(function(){
+            window.location.href = "/index.html"
+
+        })
     }
 
     function adjustInputs(){

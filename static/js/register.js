@@ -2,6 +2,7 @@ $(document).ready(function(){
     var email = false;
     var pass = false;
     var user = false;
+    var phone = false;
 
     function validateEmail(param){
         var email = /^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/
@@ -35,6 +36,12 @@ $(document).ready(function(){
                     if(!pass){
                         $("#password").addClass("error");
                     }
+                    if(!user){
+                        $("#name").addClass("error");
+                    }
+                    if(!phone){
+                        $("#phone").addClass("error");
+                    }
                 }
             }
         )
@@ -48,6 +55,10 @@ $(document).ready(function(){
         })
         $("#register-head").click(function(){
             window.location.href = "register.html"
+
+        });
+        $("#home").click(function(){
+            window.location.href = "/index.html"
 
         })
     }
