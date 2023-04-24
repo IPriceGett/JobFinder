@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <link rel="stylesheet" href="/css/login.css">
+        <link rel="stylesheet" href="/static/css/login.css">
     </head>
     <body>
         <header>
@@ -20,10 +20,10 @@
                 </span>
             </div>
             <div class="header-buttons">
-                <a>
+                <a id="login-head">
                     iniciar sesion
                 </a>
-                <button class="register-button">
+                <button class="register-button" id="register-head">
                     Registrate
                 </button>
             </div>
@@ -32,22 +32,24 @@
             <div class="text-section">
                 <div class="title">¿No tienes cuenta?</div>
                 <div> bla bla bla</div>
-                <button class="register">Registrate</button>
+                <button href="/templates/register.html" class="register" id="register">Registrate</button>
             </div>
             <div class="data-section">
                 <div class="form">
                     <span class="title-white">Iniciar Sesion</span>
                     <div style="display: flex;flex-direction: column;">
-                        <span style="color:#fff">user</span>
-                        <input type="text" placeholder="correo electronico">
+                        <span style="color:#fff">usuario</span>
+                        <input type="text" placeholder="correo electronico" id="username" class="input">
                     </div>
                     <div style="display: flex;flex-direction: column;">
-                        <span style="color:#fff">pass</span>
-                        <input type="text" placeholder="contraseña">
+                        <span style="color:#fff">contraseña</span>
+                        <input type="password" placeholder="contraseña" id="password" class="input">
                     </div>
-                    <button class="register">Login</button>
+                    <button class="register" id="login">Login</button>
                 </div>
             </div>
         </div>
     </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="/static/js/login.js"></script>
 </html>

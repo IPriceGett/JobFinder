@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    font-family: Montserrat;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E7E4E4;
+}
+
+header .brand{
+    display: flex;
+}
+
+header .brand .logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .header-buttons{
+    display: flex;
+    align-items: center;
+}
+
+header .header-buttons .profile-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    margin-right: 15px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-section{
+    background-color: #fff;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.register{
+    background-color: #3280F6;
+    width: 210px;
+    height: 60px;
+    border: none;
+    font-family: montserrat;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.data-section{
+    background-color: #fff;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    border-radius: 10px;
+    height: 850px;
+    background-color: #fff;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-white{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.input{
+    border-radius: 10px;
+    height: 55px;
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    outline: none;
+    width: 400px;
+}
+.ok{
+    border: 1px solid rgb(14, 209, 14);
+}
+
+.error{
+    border: 1px solid red;
+}
+
+::placeholder{
+    text-align: center;
+    color: #808080;
+}
+
+.card-options{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .name{
+        display: none;
+    }
+
+    .data-section{
+        width: 100%;
+    }
+}

@@ -1,0 +1,116 @@
+body 
+	width: 100% 
+	font-family: Montserrat 
+	margin: 0 
+header 
+	width: 100% 
+	height: 100px 
+	display: flex 
+	align-items: center 
+	justify-content: space-between 
+	.brand 
+		display: flex 
+		.logo 
+			width: 120px 
+			display: flex 
+			align-items: center 
+			justify-content: center 
+	.header-buttons 
+		.register-button 
+			background-color: #3280f6 
+			width: 120px 
+			height: 30px 
+			border: none 
+			font-family: montserrat 
+			border-radius: 20px 
+			color: #fff 
+			font-size: 1rem 
+			font-weight: 100 
+.body 
+	display: flex 
+	width: 100% 
+	flex-direction: column 
+.text-section 
+	background-color: #d9d9d9 
+	width: 50% 
+	height: 1000px 
+	display: flex 
+	flex-direction: column 
+	justify-content: space-around 
+	align-items: center 
+	width: 100% 
+.title 
+	font-size: 1.5rem 
+.register 
+	background-color: #9b9b9b 
+	width: 180px 
+	height: 60px 
+	border: none 
+	font-family: montserrat 
+	border-radius: 30px 
+	color: #fff 
+	font-size: 1rem 
+	font-weight: 100 
+	cursor: pointer 
+.data-section 
+	background-color: #fff 
+	width: 50% 
+	height: 1000px 
+	display: flex 
+	flex-direction: column 
+	justify-content: space-around 
+	align-items: center 
+	width: 100% 
+.form 
+	border-radius: 10px 
+	height: 850px 
+	background-color: #d9d9d9 
+	width: 70% 
+	display: flex 
+	flex-direction: column 
+	align-items: center 
+	justify-content: space-around 
+	width: 90% 
+.title-white 
+	font-size: 1.5rem 
+	color: #fff 
+.input 
+	border-radius: 10px 
+	height: 55px 
+	border: none 
+	outline: none 
+	width: 400px 
+	width: 300px 
+.ok 
+	border: 1px solid rgb(14, 209, 14) 
+.error 
+	border: 1px solid red 
+::placeholder 
+	text-align: center 
+	color: #808080 
+select 
+	border: none 
+	width: 400px 
+	border-radius: 10px 
+	height: 55px 
+	width: 300px 
+option 
+	text-align: center 
+	color: #808080 
+
+@media (max-width:768px) {
+    .name 
+        display: none 
+    .body 
+        flex-direction: column 
+    .data-section 
+        width: 100% 
+    .text-section 
+        width: 100% 
+    .form 
+        width: 90% 
+    .input 
+        width: 300px 
+    select 
+        width: 300px 
+}

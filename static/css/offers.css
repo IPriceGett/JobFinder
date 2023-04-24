@@ -106,3 +106,36 @@ option{
     height: 40px;
     font-size: 1rem;
 }
+
+@media screen and (max-width:768px) {
+    .name{
+        display: none;
+    }
+
+    .body{
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .title{
+        margin-left: 10px;
+    }
+
+    .offers{
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    select{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}

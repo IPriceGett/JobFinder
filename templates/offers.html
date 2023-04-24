@@ -7,26 +7,26 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <link rel="stylesheet" href="/css/offers.css">
+        <link rel="stylesheet" href="/static/css/offers.css">
     </head>
     <body>
         <header>
             <div class="brand">
-                <div class="logo">
+                <div class="logo" id="home">
                     logo
                 </div>
-                <span class="name">
+                <span class="name" id="upload">
                     publica tu oferta
                 </span>
-                <span class="name" style="margin-left: 20px;">
+                <span class="name" id="see-offers" style="margin-left: 20px;">
                     ver ofertas
                 </span>
             </div>
             <div class="header-buttons">
-                <a style="margin-right: 15px;">
+                <a style="margin-right: 15px;" id="see-profile">
                     Ignacio
                 </a>
-                <div class="profile-icon">
+                <div class="profile-icon" id="see-postulations">
 
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <select>
                     <option>Seleccione tipo</option>
                 </select>
-                <select style="margin-left: 20px;">
+                <select>
                     <option>Categorias</option>
                 </select>
             </div>
@@ -112,5 +112,7 @@
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="/static/js/offers.js"></script>
     </body>
 </html>

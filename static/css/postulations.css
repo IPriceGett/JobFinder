@@ -97,3 +97,31 @@ header .header-buttons .profile-icon{
     border-radius: 20px;
     color: #Fff;
 }
+
+
+@media screen and (max-width:768px) {
+    .name{
+        display: none;
+    }
+
+    .body{
+        padding: 50px;
+    }
+
+    .info-text{
+        width: auto;
+    }
+    
+    .underline{
+        width: 100%;
+        border-top: 1px solid #AEAEAE;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+}

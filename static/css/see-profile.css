@@ -35,58 +35,64 @@ header .header-buttons .profile-icon{
     margin-right: 15px;
 }
 
-.details{
-    padding: 40px 300px 40px 300px;
+.body{
     display: flex;
     justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 800px;
+}
+.section{
+    width: 50%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.info-section{
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
-
+    height: 60%;
 }
 
-.circle{
-    width: 200px;
-    height: 200px;
+.prof-icon{
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: #d9d9d9;
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
-.owner-data{
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.elem{
+    margin-top: 2%;
 }
-
-.title{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.description{
-    width: 100%;
-    height: 370px;
+.descripcion{
     background-color: #d9d9d9;
-    border-radius: 10px;
-    margin-top: 60px;
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
 }
 
-.add{
-    width: 30%;
-    height: 60px;
-    border: none;
-    background-color: #3280F6;
-    color: #fff;
-    border-radius: 25px;
-    font-size: 1.4rem;
-    margin-top: 60px;
-    font-weight: 300;
+.download{
+    background-color: #d9d9d9;
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+@media screen and (max-width:768px) {
+    .name{
+        display: none;
+    }
+
+    .body{
+        flex-direction: column;
+    }
+
+    .descripcion{
+        width: 100%;
+    }
+    .download{
+        width: 100%;
+    }
+}
+
