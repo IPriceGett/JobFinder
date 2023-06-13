@@ -24,3 +24,8 @@ Notificar cambios de estado y confirmaciones mediante gmail
     https://www.figma.com/file/rVuWT7CcaFoLEdm3JwFEkK/Untitled?node-id=0%3A1&t=WIqjGfUWAzVvWP6H-1
 
 
+EP3.
+
+En la carpeta data hay un archivo llamado user.json, ahi hay correos y password para usar en el login (ej: ignacio@mail.com, pass: testing)
+
+

@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+
+# Build
+out/
+.build/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+
+# Package-lock
+package-lock.json
+
+# Compiled TypeScript
+build/
+
+# Windows
+Thumbs.db
+
+# Tailwind CSS
+styles/tailwind.css
+
+# Testing
+coverage/

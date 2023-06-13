@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "title": "Programador junior",
+        "owner": "Ignacio",
+        "number": "912346578",
+        "logo": "https://i.pinimg.com/originals/ce/50/06/ce5006e0759c1b6adfeaecf9480247d2.png"
+    },
+    {
+        "id":2,
+        "title": "Contador",
+        "owner": "Alejandro",
+        "number": "912346578",
+        "logo": "https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/4a14e7b2de7f6eaf5a6c98cb8c00b8de.png"
+    },
+    {
+        "id":3,
+        "title": "Publicista",
+        "owner": "Jose",
+        "number": "912346578",
+        "logo": "https://img.freepik.com/vector-gratis/logo-abstracto-empresa-tecnologica-degradado_52683-9702.jpg?w=2000"
+    },
+    {
+        "id":4,
+        "title": "Psicologo",
+        "owner": "Diego",
+        "number": "912346578",
+        "logo": "https://static.wixstatic.com/media/0784b1_476fd2c5d17f46db826984d3947acdad~mv2.jpg/v1/fill/w_270,h_262,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/bo_wix_com_user-manager_users_byGuid_378b07fd-d52a-49e9-a802-db6d5b2d70c7.jpg"
+    },
+    {
+        "id":5,
+        "title": "Profesor",
+        "owner": "Renata",
+        "number": "912346578",
+        "logo": "https://marketplace.canva.com/EAFFEie5IvY/1/0/1600w/canva-logotipo-logo-marca-personal-pastel-amarillo-eQ_RxgGZfhA.jpg"
+    },
+    {
+        "id":6,
+        "title": "Asistente",
+        "owner": "Eyleen",
+        "number": "912346578",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFSTRKQ_P4UQCC2NWcJw7zy5fH5M3jnC-xg&usqp=CAU"
+    },
+    {
+        "id":7,
+        "title": "Secretario/a",
+        "owner": "Vicente",
+        "number": "912346578",
+        "logo": "https://crehana-blog.imgix.net/media/filer_public/30/5c/305ce768-e5ec-4c8a-a584-033e9202210e/ideas-de-logo-1.png?auto=format&q=50"
+    },
+    {
+        "id":8,
+        "title": "Programador senior",
+        "owner": "Nicolas",
+        "number": "912346578",
+        "logo": "https://pub-static.fotor.com/assets/projects/pages/b732eb1628ce4dd797dd6864f3cf2e5a/black-and-red-wolf-flag-a0d215741d56436187840067612c48f7.jpg"
+    },
+    {
+        "id":9,
+        "title": "Gerente TI",
+        "owner": "Bnejamin",
+        "number": "912346578",
+        "logo": "https://api.freelogodesign.org/assets/thumb/logo/8868243_400.png"
+    },
+    {
+        "id":10,
+        "title": "Diseñador grafico",
+        "owner": "Matias",
+        "number": "912346578",
+        "logo": "https://www.zarla.com/assets/images/logo-1-xl-es-20220110.png"
+    }
+]

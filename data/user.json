@@ -1,0 +1,29 @@
+[
+    {
+        "name":"Ignacio",
+        "phone":"912121212",
+        "email":"ignacio@mail.com",
+        "pass":"testing",
+        "org":"priceTech",
+        "ocu":"Persona natural",
+        "img":"https://www.semana.com/resizer/AhOjY7VO50nkdLUyhuzX2HcLZuc=/fit-in/768x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/KVRYJNDM6FGKPGL6WXPO26HFUA.png"
+    },
+    {
+        "name":"Matias",
+        "phone":"916789212",
+        "email":"matias@mail.com",
+        "pass":"testing2",
+        "org":"burgosTech",
+        "ocu":"ofrecer trabajo",
+        "img": "https://media.tycsports.com/files/2022/06/14/440393/las-20-mejores-fotos-de-perfil-para-tu-cuenta-de-free-fire_w416.webp"
+    },
+    {
+        "name":"Benjamin",
+        "phone":"900001212",
+        "email":"benjamin@mail.com",
+        "pass":"testing3",
+        "org":"herreraTech",
+        "ocu":"buscar trabajo",
+        "img":"https://marketplace.canva.com/EAEj17Y_k_k/2/0/1600w/canva-amarillo-y-negro-gamer-desgastado-imagen-de-perfil-de-twitch-41B81rUGLAg.jpg"
+    }
+]
