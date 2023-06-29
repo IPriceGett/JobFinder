@@ -8,12 +8,6 @@ node_modules/
 out/
 .build/
 
-# Environment variables
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Cache
 .cache/
 
@@ -38,9 +32,6 @@ build/
 
 # Windows
 Thumbs.db
-
-# Tailwind CSS
-styles/tailwind.css
 
 # Testing
 coverage/
